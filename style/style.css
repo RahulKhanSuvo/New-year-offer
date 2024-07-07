@@ -331,3 +331,63 @@ body {
     opacity: 0.80;
     margin-top: 20px;
 }
+
+.contact {
+    margin-top: 120px;
+    height: 600px;
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+form {
+    position: relative;
+}
+
+.form-input {
+
+    border-radius: 50px;
+    border: none;
+    padding: 24px 50px;
+    width: 600px;
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.submit-btn {
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    border: none;
+    padding: 24px 56px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.contact-title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.contact-dis {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
