@@ -16,14 +16,12 @@ body {
 
 .liner-bg {
     background: repeating-linear-gradient(90deg,
-            #fff 0px,
+            #ffcccc 0px,
+            #ffcccc 70px,
+            #fff 60px,
+            #fff 90px);
+    padding-top: 40px;
 
-            #fff 20px,
-
-            #ffcccc 20px,
-
-            #ffcccc 100px);
-    padding-top: 20px;
 }
 
 .header {
@@ -68,6 +66,28 @@ body {
     align-items: center;
     gap: 48px;
     margin-top: 120px;
+}
+
+.off-title {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.off-des {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.off-cat {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
 }
 
 .welcome {
@@ -118,7 +138,7 @@ body {
 }
 
 .address {
-    border-radius: 20px;
+    border-radius: 10px;
     height: 400px;
     display: flex;
     gap: 10px;
@@ -289,12 +309,25 @@ body {
     width: 200px;
 }
 
-@keyframes col {
-    0% {
-        transform: translateY(0);
-    }
+.portfolio {
+    margin-top: 120px;
 
-    100% {
-        transform: translateY(-20px);
-    }
+}
+
+.port-title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+
+
+
+}
+
+.port-photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    opacity: 0.80;
+    margin-top: 20px;
 }
