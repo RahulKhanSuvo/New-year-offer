@@ -2,8 +2,6 @@
 
 body {
     font-family: "Merriweather", serif;
-    max-width: 1320px;
-    margin: auto;
 
 
 
@@ -15,12 +13,14 @@ body {
 }
 
 .liner-bg {
-    background: repeating-linear-gradient(90deg,
+    /* background: repeating-linear-gradient(90deg,
             #ffcccc 0px,
             #ffcccc 70px,
             #fff 60px,
-            #fff 90px);
+            #fff 90px); */
     padding-top: 40px;
+    max-width: 1320px;
+    margin: auto;
 
 }
 
@@ -328,7 +328,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
-    opacity: 0.80;
+    /* opacity: 0.80; */
     margin-top: 20px;
 }
 
@@ -390,4 +390,78 @@ form {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
+}
+
+
+
+
+footer {
+    position: relative;
+    color: white;
+
+}
+
+.footer-bg {
+    /* position: relative; */
+    max-width: 1320px;
+    margin: auto;
+    /* background: repeating-linear-gradient(90deg,
+            #ffcccc 0px,
+            #ffcccc 70px,
+            #fff 60px,
+            #fff 90px); */
+    height: 600px;
+    padding-top: 120px;
+
+    /* z-index: 1; */
+}
+
+
+
+.footer-overlay {
+    position: absolute;
+    background: rgb(7, 2, 17);
+    height: 600px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* opacity: 0.90; */
+    /* z-index: 1; */
+}
+
+.footer-content {
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    gap: 90px;
+    font-family: Inter;
+
+
+
+}
+
+.footer-flex-one {
+    display: flex;
+    gap: 550px;
+    align-items: center;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+
+
+
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
 }
